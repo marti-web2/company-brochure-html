@@ -1,0 +1,42 @@
+@import "https://fonts.googleapis.com/css2?family=Poppins&display=swap";
+:root {
+  --text-gray: #808291;
+  --text-white: #f8f9fa;
+  --text-light: #f6f6f6;
+  --text-dark: #1a3260;
+  --text-dark2: #1a3760d4;
+  --text-red: #ff4d6d;
+  --box-shadow: 0rem 0rem 5rem 0rem #0000001a;
+  --bg-blue: #f9f3ff;
+  --bg-red: #fef7fc;
+  --bg-yellow: #fffff6;
+  --bg-purple: #f6ffff;
+  --font-poppins: "Poppins", "sans-serif";
+  --bg-gradient: linear-gradient(to right, #ff512f, #dd2476);
+  --bg-gradient-indigo: linear-gradient(to right, #832d32, #4a00e0);
+  --bg-gradient-peach: linear-gradient(to right, #fff7f3, #fff7f3);
+  --bg-cover: url("bgimg1.37682d33.png");
+  --bg-image1: url("img1.d1e509ce.png");
+  --bg-image2: url("img2.4d1cafab.png");
+  --bg-image3: url("img3.2dea9ad3.png");
+}
+
+html {
+  font-size: 62.5%;
+}
+
+* > * {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+/*# sourceMappingURL=index.3a01df49.css.map */
