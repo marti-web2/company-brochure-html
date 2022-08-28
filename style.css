@@ -267,6 +267,10 @@ ul {
     /* max-width: 100vw; */
     max-width: 640px;
   }
+
+  .sm-text-xl{
+    font-size: 3em;
+  }
 }
 
 /* for large screen md (768px) */
@@ -362,4 +366,18 @@ ul {
 
 .active{
   max-height: 50vh !important;
+}
+
+/* ----- Banner Area Styles---- */
+#site-main .banner-area{
+  width: 100%;
+  position: relative;
+  background: var(--bg-cover) no-repeat;
+  background-position-x: right;
+  z-index: -9999;
+}
+
+#site-main .banner-area .banner-title{
+  height: 95vh;
+  padding-top: 16rem;
 }

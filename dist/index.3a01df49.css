@@ -254,6 +254,10 @@ ul {
   .container {
     max-width: 640px;
   }
+
+  .sm-text-xl {
+    font-size: 3em;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -345,6 +349,19 @@ ul {
 
 .active {
   max-height: 50vh !important;
+}
+
+#site-main .banner-area {
+  width: 100%;
+  background: var(--bg-cover) no-repeat;
+  z-index: -9999;
+  background-position-x: right;
+  position: relative;
+}
+
+#site-main .banner-area .banner-title {
+  height: 95vh;
+  padding-top: 16rem;
 }
 
 /*# sourceMappingURL=index.3a01df49.css.map */
