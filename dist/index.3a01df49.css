@@ -250,6 +250,58 @@ ul {
   width: 50%;
 }
 
+@media screen and (min-width: 640px) {
+  .container {
+    max-width: 640px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .container {
+    max-width: 1024px;
+  }
+
+  #nav .toggle-btn > button {
+    display: none;
+  }
+
+  #nav {
+    flex-direction: row !important;
+  }
+
+  .collapse {
+    max-height: initial !important;
+  }
+
+  .collapse ul {
+    flex-direction: row !important;
+  }
+
+  .active {
+    max-height: 100% !important;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .container {
+    max-width: 1280px;
+  }
+
+  #nav {
+    background: none !important;
+  }
+
+  #nav .flex-initial ul button {
+    display: inline-block !important;
+  }
+}
+
 #nav {
   width: 100%;
   background-color: var(--text-light);
