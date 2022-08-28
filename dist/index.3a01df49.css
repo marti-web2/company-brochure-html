@@ -262,6 +262,7 @@ ul {
 
 #nav .collapse {
   max-height: 0;
+  transition: all .9s;
   overflow-y: hidden;
 }
 
@@ -291,7 +292,7 @@ ul {
 }
 
 .active {
-  max-height: 50vh;
+  max-height: 50vh !important;
 }
 
 /*# sourceMappingURL=index.3a01df49.css.map */

@@ -274,6 +274,7 @@ ul {
 #nav .collapse{
   max-height: 0px;
   overflow-y: hidden;
+  transition: all 0.9s ease;
 }
 
 #nav .collapse ul{
@@ -302,5 +303,5 @@ ul {
 }
 
 .active{
-  max-height: 50vh;
+  max-height: 50vh !important;
 }
