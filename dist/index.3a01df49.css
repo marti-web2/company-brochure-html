@@ -250,4 +250,48 @@ ul {
   width: 50%;
 }
 
+#nav {
+  width: 100%;
+  background-color: var(--text-light);
+  flex-direction: column;
+  padding: 1rem 1.5rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#nav .collapse {
+  max-height: 0;
+  overflow-y: hidden;
+}
+
+#nav .collapse ul {
+  text-align: center;
+  flex-direction: column;
+  padding: 0 3em;
+}
+
+#nav .collapse ul > li {
+  padding: 0 1.5rem;
+  font-size: 1.1em;
+  line-height: 3rem;
+}
+
+#nav .toggle-btn > button {
+  color: var(--text-dark2);
+  padding: 1rem;
+  font-size: 2em;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+#nav .flex-initial ul button {
+  display: none;
+}
+
+.active {
+  max-height: 50vh;
+}
+
 /*# sourceMappingURL=index.3a01df49.css.map */
