@@ -21,6 +21,7 @@
 			<a href="https://www.linkedin.com/in/david-martinez-a693b165/">Marti</a>
 		</li>
 	</ul>
+  <h2>Real-World Applications</h2>
 	<p>Using HTML and CSS, you can create a simple yet effective web app that provides all the information your customers need to know about your company. Whether you're a small local business or a large multinational corporation, a well-designed web app can be a powerful marketing tool and a valuable resource for your customers.</p>
 </body>
 </html>
